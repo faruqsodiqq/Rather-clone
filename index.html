@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rather Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" 
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="">
+</script>
+<script defer src="index.js"></script>
+</head>
+<body> 
+    <header>
+        <nav>
+            <i class="navbar fa-solid fa-bars"></i>
+            <div class="logo">
+                <img src="/image/logo.png" alt="Logo">
+            </div>
+            <ul class="sidebar">
+                <li><a href="#" class="link-active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li class="headd"><i class="fa-solid fa-share-nodes"></i></li>
+            </ul>                                                               
+        </nav>
+    </header>
+    
+    <div class="hero-section">
+        <div class="slider-container">
+        <div class="slider slider-1">
+            <h1>Mobile App Development</h1>
+            <p>Since our establishment, we have been diversing high quality and sustainable <br>
+            software solutions for corperate purposes of worldwide businesses.
+            </p>
+            <button class="touch">Get in touch</button>
+        </div>
+        <div class="slider slider-2">
+            <h1>Experienced Team</h1>
+            <p>we are a team of qualified software developers, aimed at creating unique and <br>
+                powerful tools for your businesses & everyday life 
+            </p>
+            <button class="touch">Get in touch</button>
+        </div>
+        <div class="slider slider-3">
+            <h1>Award-Winning software</h1>
+            <p>The software developed by our company have been numerously awarded <br>
+            for usability and innovative features
+            </p>
+            <button class="touch">Get in touch</button>
+        </div>
+    </div>
+
+</div>
+
+    <!---Service Section-->
+
+    <section class="services">
+        <div class="visuals">
+            <img src="image/service.png" alt="">
+        </div>
+        <div class="service">
+            <div class="div1">
+                <h1>What We <br>
+                     Offer</h1>
+                <hr>
+                <button>view all services</button>
+            </div>
+            <div class="div2">
+                <i class="fa-solid fa-phone"></i>
+                <h4>corporate <br>solutions</h4>
+                <hr>
+                <p>Need specific software for your company? We are ready to develop it!</p>
+            </div>
+            <div class="div3">
+                <i class="fa-solid fa-headset"></i>
+                <h4>call center<br>solutions</h4>
+                <hr>
+                <p>Our experts provide custom products of any complexity for call centers.</p>
+            </div>
+            <div class="div4">
+                <i class="fa-solid fa-inbox"></i>
+                <h4>cloud<br>management</h4>
+                <hr>
+                <p>We can also offer you reliable cloud development solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="develop">
+        <div class="content">
+            <h1>Let's Develop Your Next Great App!</h1>
+            <p>Do you need a unique software solution for your company? We know how to help you!</p>
+            <button class="touch">Get in touch</button>
+            <button class="learns">learn more</button>
+        </div>
+    </div>
+
+    <section class="project">
+        <div class="projects-content">
+
+            <h1>Latest Project</h1>
+    
+            <p>In our portfolio, you can browse the latest products developed for <br> our clients for different corporate purposes.
+                 Our qualified team of <br> interface designers and software developers is always ready to  <br>
+                 create something unique for you.</p>
+        </div>
+
+        <button class="filter">Filter</button>
+        <div class="project-titles">
+            <h3>All</h3>
+            <h3>Mobile Apps</h3>
+            <h3>Custom Software</h3>
+            <h3>Qa & Testing</h3>
+            <h3>Ux and design</h3>
+        </div>
+
+        <div class="projects">
+            
+            <div class="project1">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>Finstep</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features with 
+                        great UI that you won’t find anywhere else.</p>
+                </div>
+            </div>
+
+            <div class="project2">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>Mobile Finance</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features 
+                        with great UI that you won’t find anywhere else..</p>
+                </div>
+            </div>
+
+            <div class="project3">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>Q-Manage</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features 
+                        with great UI that you won’t find anywhere else..</p>
+                </div>
+            </div>
+
+            <div class="project4">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>WeatherCast</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features 
+                        with great UI that you won’t find anywhere else..</p>
+                </div>
+            </div>
+
+            <div class="project5">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>Home Calender</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features 
+                        with great UI that you won’t find anywhere else..</p>
+                </div>
+            </div>
+
+            <div class="project6">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>MPlanner</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features 
+                        with great UI that you won’t find anywhere else..</p>
+                </div>
+            </div>
+
+            <div class="project7">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>Allice Messanger</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features 
+                        with great UI that you won’t find anywhere else..</p>
+                </div>
+            </div>
+
+            <div class="project8">
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fa-thin fa-magnifying-glass-plus"></i>
+                        <h5>WiseMoney</h5>
+                    </div>
+                    <p>We work hard on every app to deliver top-notch features 
+                        with great UI that you won’t find anywhere else..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="experience">
+        <div class="divs1">
+            <h1>10</h1>
+            <div class="ex-content">
+                <h2>Years of <br> Experience</h2>
+                <p>RatherApp is a team of highly <br> experienced app designers and <br>
+                    developers creating unique software for <br> you..</p>
+                    <button class="touch">get in touch</button>
+            </div>
+        </div>
+        <div class="divs2">
+            <div>
+                <h1>2k</h1>
+                <p>app developed</p>
+            </div>
+            <hr class="mo">
+            <div>
+                <h1>40</h1>
+                <p>consultants</p>
+            </div>
+            <hr class="mo">
+            <hr class="horizontal-hr">
+            <hr class="vertical-hr">
+            <div>
+                <h1>12</h1>
+                <p>awards won</p>
+            </div>
+            <hr class="mo">
+            <div>
+                <h1>160</h1>
+                <p>employees</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="companies">
+        <img src="image/mitos.png" alt="">
+        <img src="image/papa.png" alt="">
+        <img src="image/king.png" alt="">
+        <img src="image/high.png" alt="">
+    </div>
+
+    <div class="team">
+        <h1>Meet The Team</h1>
+        <div class="teams">
+        <div class="ryan">
+            <div class="info">
+                <h3>Ryan Wilson</h3>
+                <p>Director of production</p>
+            </div>
+        </div>
+        <div class="jil">
+            <div class="info">
+                <h3>Jil Peterson</h3>
+                <p>Ui Designer</p>
+            </div>
+        </div>
+        <div class="sam">
+            <div class="info">
+                <h3>Sam Robinson</h3>
+                <p>Senior Developer</p>
+            </div>
+        </div>
+        <div class="mary">
+            <div class="info">
+                <h3>Mary Lee</h3>
+                <p>Software Developer</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="get">
+        <div class="get-content">
+            <h1>Get More With Us</h1>
+            <div class="tabine">
+                <div class="tabine-buttons">
+                    <h2>01</h2>
+                    <h2>02</h2>
+                    <h2>03</h2>
+                    <h2>04</h2>
+                </div>
+                <hr>
+                <div class="tabine-content">
+                    <div class="first">
+                        <h5>Free Apps</h5>
+                        <p>We regularly upload new free apps to our website, which is <br>
+                            fully accessible to our clients and subscribers.You can also <br>
+                            find out about free apps in our blog.
+                        </p>
+                        <button class="touch">get in touch</button>
+                        <button class="learns" style="border-color:#000; color: #000;">learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="get-visuals">
+            <img src="image/gettoucch1.png" alt="">
+            <img src="image/gettouch2.png" alt="">
+        </div>
+    </div>
+<!--What People Say-->
+
+    <div class="say">
+        <h1>What People Say</h1>
+        <div class="people">
+            <div class="catherine">
+                <div class="details">
+                <img src="image/catherine.jpg" alt="">
+                <div class="info">
+                    <h3>Catherine Williams</h3>
+                    <p>Regular Client</p>
+                </div>
+                </div>
+                <p class="says">
+                    RatherApp offers a high caliber of resources <br>
+                    skilled in Microsoft Azure .NET, mobile and <br>
+                    Quality Assurance. They became our true <br>
+                    business partners over the past three years.
+                </p>
+            </div>
+            <div class="rupert">
+                <div class="details">
+                <img src="image/rupert.jpg" alt="">
+                <div class="info">
+                    <h3>Rupert Wood</h3>
+                    <p>Regular Client</p>
+                </div>
+                </div>
+                <p class="says">
+                    RatherApp powered us with a competent team <br>
+                    to develop products for banking services. The <br>
+                    team has been delivering results within budget <br>
+                    and time, which is amazing.
+                </p>
+            </div>
+            <div class="brown">
+                <div class="details">
+                <img src="image/brown.jpg" alt="">
+                <div class="info">
+                    <h3>Samantha Brown</h3>
+                    <p>Regular Client</p>
+                </div>
+                </div>
+                <p class="says">
+                    RatherApp is a highly skilled and uniquely <br>
+                    capable firm with multitudes of talent on-board. <br>
+                    We have collaborated on a number of diverse <br>
+                    projects that have been a great success.
+                </p>
+            </div>
+    
+        </div>
+    </div>
+
+    <div class="pricing">
+        <h1>Pricing</h1>
+
+        <div class="prices">
+            <div class="basic">
+                <div class="price">
+                    <p>BASIC</p>
+                    <h1>$500.00</h1>
+                    <P>STARTING AT</P>
+                </div>
+                <h1 class="name">BASIC</h1>
+                
+                <ul class="list">
+                    <li>Concept development</li>
+                    <li>UI design</li>
+                    <li>Configuration management</li>
+                    <li>Software quality assurance</li>
+                    <li>App integration</li>
+                </ul>
+
+                <button>Get Started</button>
+            </div>
+
+
+            <div class="optimal">
+                <div class="price">
+                    <p>OPTIMAL</p>
+                    <h1>$800.00</h1>
+                    <P>STARTING AT</P>
+                </div>
+                <h1 class="name">OPTIMAL</h1>
+                
+                <ul class="list">
+                    <li>Concept development</li>
+                    <li>UI design</li>
+                    <li>Configuration management</li>
+                    <li>Software quality assurance</li>
+                    <li>App integration</li>
+                </ul>
+
+                <button>Get Started</button>
+            </div>
+
+
+            <div class="ultimate">
+                <div class="price">
+                    <p>ULTIMATE</p>
+                    <h1>$1200.00</h1>
+                    <P>STARTING AT</P>
+                </div>
+                <h1 class="name">ULTIMATE</h1>
+                
+                <ul class="list">
+                    <li>Concept development</li>
+                    <li>UI design</li>
+                    <li>Configuration management</li>
+                    <li>Software quality assurance</li>
+                    <li>App integration</li>
+                </ul>
+
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <!---Blog Post -->
+
+    <div class="post">
+        <h1>Latest Blog Posts</h1>
+        <div class="posts">
+            <div class="post-1">
+                <div class="image">
+                    <div class="date">
+                        <h3>07/</h3>
+                        <h5>04</h5>
+                    </div>
+                </div>
+                <div class="post-info">
+                    <h3>Benefits of Async/Await</h3>
+                    <p>
+                       Asynchronous functions are a good and bad <br> 
+                       thing in JavaScript. The good side is that <br> 
+                       asynchronous functions are non-blocking and...</p>
+                </div>
+            </div>
+            <div class="post-2">
+                <div class="image">
+                    <div class="date">
+                        <h3>07/</h3>
+                        <h5>17</h5>
+                    </div>
+                </div>
+                <div class="post-info">
+                    <h3>Key Considerations of iPaaS</h3>
+                    <p>
+                        Digital transformation requires cloud appropriate <br> 
+                        adoption, legacy IT systems modernization, and <br> 
+                        Agile-based methodologies for faster....
+                    </p>
+                </div>
+            </div>
+            <div class="post-3">
+                <div class="image">
+                    <div class="date">
+                        <h3>07/</h3>
+                        <h5>22</h5>
+                    </div>
+                </div>
+                <div class="post-info">
+                    <h3>Never Stop Optimizing Your <br> Code</h3>
+                    <p>
+                        In this tutorial, we will discuss the Hibernate <br>
+                        Query Language. HQL is an object-oriented query <br>
+                        language. Hibernate Query...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reach">
+        <div class="phone">
+            <p>+1 323-913-4688</p>
+            <p>+1 323-888-4554</p>
+        </div>
+        <div class="house">
+            <p>
+                4730 Crystal Springs Dr, <br>
+                Los Angeles, CA 90027
+            </p>
+        </div>
+        <div class="message">
+            <p>mail@demolink.org</p>
+            <p>info@demolink.org</p>
+        </div>
+    </div>
+
+    <!---Form Section-->
+    <div class="form-sec">
+        <h1>Get In Touch</h1>
+        <span>If you have any questions, just fill in the contact form, and we will answer you shortly.</span>
+
+        <form action="">
+            <input type="text" placeholder="Your Name" id="text">
+            <input type="email" placeholder="E-mail" id="text">
+            <input type="number" placeholder="Phone" id="text"> <br>
+            <textarea placeholder="Message"  rows="14" cols="30"></textarea> <br>
+            <button class="touch">SEND MESAGE</button>
+        </form>
+    </div>
+
+    <!-- Map-->
+     <div id="map">
+     </div>
+ 
+    <footer>
+        <ul>
+            <li>ui design</li>
+            <li>Windows/Mac OS Apps</li>
+            <li>Android/iOS Apps</li>
+            <li>Cloud Solutions</li>
+            <li>customer Support</li>
+        </ul>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© 2024 RatherApp</p>
+            <div class="social-links">
+                <li>facebook</li>
+                <li>twitter</li>
+                <li>instagram</li>
+            </div>
+            <p>All rights reserved. Design by TemplateMonster</p>
+        </div>
+    </footer>
+</body>
+</html>
