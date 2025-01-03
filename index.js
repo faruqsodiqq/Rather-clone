@@ -42,6 +42,46 @@ setInterval(() =>{
     })
 },4000)
 
+// Using observer intersection api for the scroll to view
+
+
+const options = {
+    rootMargin:"0px",
+    threshold: 0.5
+};
+
+const observer = new IntersectionObserver(
+    callBackFunction,
+    options  // options object
+    
+);
+
+function callBackFunction(entries,observer){
+    entries.forEach(entry =>{
+        if(entry.isIntersecting){
+            if(entry.target.className === 'services'){
+                console.log("hello")
+                entry.target.classList.add('fade')
+            }
+            if(entry.target.className === 'project'){
+                console.log("hell")
+                entry.target.classList.add('fade')
+            }
+            if(entry.target.className === 'get'){
+                console.log("hel")
+                entry.target.classList.add('fade')
+            }
+            observer.unobserve(entry.target)
+        }
+
+    })
+}
+
+
+observer.observe(serviceSection)
+observer.observe(projectSection)
+observer.observe(getSection)
+
 
 
 // Import Leaflet library
