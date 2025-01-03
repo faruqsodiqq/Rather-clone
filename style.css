@@ -149,6 +149,15 @@ nav a:hover::after {
     display: flex;
     align-items: center;
     gap: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: 2s;
+}
+.services.fade{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
 }
 .services .visuals img{
     width: 450px;
@@ -254,6 +263,17 @@ nav a:hover::after {
 /* Project Section */
 .project{
     position: relative;
+    height: 900px;
+    margin-bottom: 400px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: 2s;
+}
+.project.fade{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
 }
 
 .projects-content{
@@ -558,6 +578,15 @@ nav a:hover::after {
     gap: 120px;
     align-items: center;
     margin: 150px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: 2s;
+}
+.get.fade{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
 }
 .get-content{
     width: 40%;
